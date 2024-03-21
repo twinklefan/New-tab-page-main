@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *;**script-src 'self' http://onlineerp.solution.quebec 'unsafe-inline' 'unsafe-eval';** "> -->
+  <title>New Tab</title>
+  <link rel="shortcut icon" href="chrome2.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dangrek|Caveat|Indie-Flower|Patrick-Hand" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <!-- <div>
+    <a href="https://twinklefan.github.io/yr12-notes/index.html"><button id="x">Memo</button></a>
+  </div> -->
+  
+  <div>
+    <button id="countdown">Countdown</button>
+  </div>
+  
+  <img class="icon" id="mushroom" src="mushroom-3.png" alt="Mushroom!!!" style="position: absolute; height: 60px; width: auto; z-index: 999;">
+
+  <div class="short">
+    <center>
+      <a href="https://photos.google.com/"><img class="icon" src="photos.png" alt="Google photos shortcut"></a>
+      <a href="https://bnz.tournamentsoftware.com/"><img class="icon" src="badminton.png" alt="badminton shortcut"></a>
+      <a href="https://mail.google.com/mail/u/0/?zx=cnc0o69uzcz6#inbox"><img class="icon" src="gmail.png" alt="gmail shortcut"></a>
+      <a href="https://discord.com/channels/@me"><img class="icon" src="discord.png" alt="Discord shortcut" style="width: 57px;"></a>
+      <a href="https://calendar.google.com/calendar/u/0/r"><img class="icon" src="calendar.png" alt="Google calendar shortcut"></a>
+      <a href="https://github.com/"><img class="icon" src="github.png" alt="github shortcut"></a>
+      <a href="https://twinklefan.github.io/yr12-notes/index.html"><img class="icon" src="memo-11.png" alt="Memo shortcut" style="width: 57px;"></a>
+    </center>
+  </div>
+  
+  <div class="searchDiv">
+    <form role="search" id="form">
+      <input type="search" id="query" name="q" placeholder="I'm feeling lucky..." aria-label="Google search... whats aria label???">
+    </form>
+  </div>
+  <div id="remind"></div>
+  <div id="clock" onload="showTime()"></div>
+  <div id="date"></div>
+  
+  <!-- <hr /> -->
+  <div class="split left">
+    <div class="notes">
+      <div id="edit">
+        <img id="check-png" src="./edit-1.png" alt="">
+      </div>
+      <div>Notes</div>
+      <div class="content"></div>
+    </div>
+  </div>
+  
+  <div class="split right" id="border">
+    <div class="calendar">
+      <div id="calenderTxt"></div>
+    </div>
+  </div>
+
+
+  <div id="images">
+    <div class="img"></div>
+  </div>
+
+  <script src="tabby.js"></script>
+  
+  <script src="index.js" charset="utf-8"></script>
+  <!-- <script src="tabby.js"></script> -->
+</body>
+</html>

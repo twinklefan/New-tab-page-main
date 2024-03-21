@@ -1,0 +1,26 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+
+   "description": "The finale version of new tab page! :)",
+   "icons": {
+      "128": "chrome2.png"
+   },
+
+   "background": {
+    "scripts": ["index.js"]
+   },
+
+   "manifest_version": 2,
+   "name": "New Tab page :)",
+   "permissions": [ 
+      "storage", 
+      "bookmarks", 
+      "chrome://favicon/", 
+      "onclick" 
+   ],
+   "version": "3.2",
+
+   "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'"
+}
