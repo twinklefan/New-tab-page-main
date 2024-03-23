@@ -252,6 +252,23 @@ hr {
   cursor: pointer;
 }
 
+#calculate {
+  border: none;
+  /* border-bottom: 2px solid white; */
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.18);
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  font-family: 'Patrick Hand', cursive;
+  text-decoration: none;
+  padding: 8px 15px;
+  position: absolute;
+  left: 4%;
+  width: 300px;
+  text-align: center;
+}
+
 #weather {
   font-size: 50rem;
   position: absolute;
@@ -268,3 +285,4 @@ hr {
   transition: font-size 10s;
   cursor: pointer;
 }
+
